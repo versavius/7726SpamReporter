@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.milliesoft.spamreporter.MainActivity" >
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:showAsAction="withText"
+        android:title="@string/help"/>
+    <item
+        android:id="@+id/action_tps"
+        android:orderInCategory="100"
+        android:showAsAction="withText"
+        android:title="@string/tps"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="200"
+        android:showAsAction="withText"
+          android:title="@string/settings" 
+          android:icon="@drawable/ic_action_settings"
+          />
+    
+</menu>

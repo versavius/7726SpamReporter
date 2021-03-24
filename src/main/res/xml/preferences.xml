@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="spam_number"
+        android:title="@string/spam_number"
+        android:summary="@string/spam_number_summary"
+        android:defaultValue="7726"/>
+    <EditTextPreference
+        android:key="number_request"
+        android:title="@string/number_request"
+        android:summary="@string/number_request_summary"
+        android:defaultValue="number" />
+    <CheckBoxPreference
+        android:key="lookup_names"
+        android:title="Lookup Contacts"
+        android:summary="Highlight people in your address book"/>
+</PreferenceScreen>

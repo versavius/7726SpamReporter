@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">7726 Spam Reporter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="spam_number">Spam Reporting Number</string>
+    <string name="spam_number_summary">This is the number to report spam SMS to your network operator.</string>
+    <string name="number_request">Number Request Identifier</string>
+    <string name="number_request_summary">When your network operator responds, asking for the spammers number, what phrase does it contain?</string>
+    <string name="settings">Settings</string>
+    <string name="tps">Register with TPS</string>
+
+</resources>

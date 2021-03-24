@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="-5dp"
+    android:layout_marginLeft="-5dp"
+    android:layout_marginRight="-5dp"
+    android:columnCount="2"
+    android:paddingTop="20dp"
+    android:rowCount="6" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="Number:"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:paddingLeft="15dp"/>
+
+    <EditText
+        android:id="@+id/incomingNumber"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:text="Message:"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:paddingLeft="15dp"/>
+
+    <EditText
+        android:id="@+id/incomingMessage"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:ems="10" 
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/informationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:layout_row="3"
+        android:paddingTop="40dp" 
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        />
+
+    <TextView
+        android:id="@+id/smsResponseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:layout_row="4"
+        android:paddingTop="20dp"
+        android:textColor="#808080" 
+                android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+         android:textAppearance="?android:attr/textAppearanceMedium" 
+        />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_row="5"
+        android:onClick="sendSpamReport"
+        android:text="Report Spam" 
+        android:background="@drawable/wide_button_red"
+        style="@style/button_text"
+        android:textColor="#ff0000"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_row="5"
+        android:onClick="exitApp"
+        android:text="Exit"
+        style="@style/button_text"
+        android:textColor="#32CD32"
+        android:background="@drawable/wide_button_green"
+         />
+
+     />
+
+</GridLayout>
