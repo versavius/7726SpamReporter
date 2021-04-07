@@ -381,7 +381,7 @@ Boolean found=false;
             startActivity(intent);
             return true;
         } else    if (id == R.id.action_tps) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.tpsonline.org.uk/tps/number_type.html"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.tpsonline.org.uk/register"));
             startActivity(browserIntent);
                 return true;
 		} else if (id == R.id.action_settings) {
