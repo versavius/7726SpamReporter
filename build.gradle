@@ -6,7 +6,7 @@ android {
     defaultConfig {
         applicationId "com.milliesoft.spamreporter"
         minSdkVersion 19
-        targetSdkVersion 21
+        targetSdkVersion 30
     }
 
     buildTypes {
